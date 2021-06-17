@@ -1,0 +1,107 @@
+body {
+    background-color: #1D89FF;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+.screen {
+    background-color: grey;
+    border: none;
+    width: 300px;
+    color: white;
+    font-size: medium;
+    cursor: default;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.clear {
+    background-color: rgb(224, 39, 39);
+    border: none;
+    width: 100px;
+    color: white;
+    letter-spacing: 2px;
+    font-size: medium;
+    padding: 10px;
+    cursor: pointer;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.clear:hover {
+    background-color: rgb(223, 18, 18);
+}
+
+input[type='button']:active {
+    background-color: #1D89FF;
+}
+.operator {
+    background-color: #1D89FF;
+    width: 100px;
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 30px;
+}
+.operator:hover, .decimal:hover, .equal:hover {
+    background-color: #489cf7;
+}
+.number {
+    background-color: rgb(150, 147, 147);
+    padding: 5px;
+    width: 100px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.number:hover {
+    background-color:rgb(182, 176, 176);
+}
+.equal {
+    background-color: rgb(138, 135, 135);
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.decimal {
+    background-color: rgb(136, 133, 133);
+    width: 100px;
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+
+.container {
+    background-color: white;
+    padding: 15px;
+    color: black;
+    border: none;
+    width: 500px;
+    display: block;
+    margin: auto;
+    align-self: center;
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px black;
+}
+/* table {
+    width: 100%;
+} */
